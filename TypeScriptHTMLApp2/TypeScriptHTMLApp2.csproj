@@ -24,6 +24,7 @@
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="app.ts" />
+    <TypeScriptCompile Include="SlimeHit2D\SlimeHit2D.ts" />
   </ItemGroup>
   <ItemGroup>
     <None Include="web.Debug.config">
