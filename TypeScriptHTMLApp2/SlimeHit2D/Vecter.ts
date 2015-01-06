@@ -28,8 +28,8 @@
         }
 
         // メソッド (引数、戻り値ともに型付きにできる)
-        add(vector: Vector): Vector {
-            return new Vector(this.x + vector.x, this.y + vector.y);
+        add(vector: Vector2D): Vector2D {
+            return new Vector2D(this.x + vector.x, this.x2 + vector.x2,this.y + vector.y,this.y2+vector.y2);
         }
     }
 }
