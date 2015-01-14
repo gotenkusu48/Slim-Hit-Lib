@@ -1,4 +1,4 @@
-﻿module Vecter {
+﻿module SlimeHit.Vecter {
     // 二次元ベクトルのクラス
     export class Vector {
         // コンストラクター
@@ -9,6 +9,7 @@
             return Math.sqrt(this.x * this.x + this.y * this.y);
         }
 
+
         // メソッド (引数、戻り値ともに型付きにできる)
         add(vector: Vector): Vector {
             return new Vector(this.x + vector.x, this.y + vector.y);
@@ -17,6 +18,10 @@
         //multiply(vector: Vector): Vector {
         //    return new Vector(this.x * vector.x, this.y * vector.y);
         //}
+
+        get GetX(): number { return this.x; }
+        get GetY(): number { return this.y; }        
+
     }
     export class Vector2D {
         // コンストラクタ
